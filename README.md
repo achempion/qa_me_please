@@ -29,11 +29,11 @@ That's all, happy coding.
 QaMePlease.configure do |config|
  #
  # required
- # :username is github username
- # :token is github access token for that user
+ # <username> is github username
+ # <token> is github access token for that user
  #
 
- config.repo_access_key = ':username/:token'
+ config.repo_access_key = '<username>:<token>' # example 'achempion:secret'
  config.repo = 'achempion/qa_me_please'
 
  #
